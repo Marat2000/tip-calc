@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tip-calc/static/css/main.bbbcb244.css",
+    "main.js": "/tip-calc/static/js/main.ace0acbd.js",
+    "index.html": "/tip-calc/index.html",
+    "main.bbbcb244.css.map": "/tip-calc/static/css/main.bbbcb244.css.map",
+    "main.ace0acbd.js.map": "/tip-calc/static/js/main.ace0acbd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbbcb244.css",
+    "static/js/main.ace0acbd.js"
+  ]
+}
