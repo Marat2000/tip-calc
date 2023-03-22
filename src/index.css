@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+
+
+html *
+{
+	font-family: 'Space Mono', monospace;
+	box-sizing: border-box;
+
+}
+
+html 
+{
+	font-size:24px;
+	color: hsl(184, 14%, 56%);
+	background-color:  hsl(185, 41%, 84%);
+}
+
+h1
+{
+	color:hsl(186, 14%, 43%);
+	text-align: center;
+	font-size: 1rem;
+}
+
+.inputArea
+{
+	background-color: hsl(189, 41%, 97%);
+	border-radius: .2rem;
+	align-items: center;
+	padding: .5rem;
+	padding-right: 1rem !important;
+	display: flex;
+	font-size: 2rem;
+	margin: auto;
+
+
+}
+
+body
+{
+	margin:0;
+	padding:0; 
+}
+
+h6
+{
+	margin: 0;
+	margin:.8rem;
+}
+
+main
+{
+	background-color: white;
+	padding:.5rem 1rem;
+	margin: 0;
+	width: 100%;
+	border-radius: 1rem 1rem 0 0;
+
+}
+
+.inputArea input
+{
+	width: 100%;
+	background-color: transparent;
+	outline: none;
+	border:none;
+	text-align: right;
+	font-size:1rem;
+	color:hsl(183, 100%, 15%);
+}
+
+.result
+{
+	background-color:  hsl(183, 100%, 15%);
+	padding: 1rem;
+	border-radius: .7rem;
+	margin-top: .8rem;
+
+
+
+}
+
+#resetBtn
+{
+	background-color:hsl(172, 67%, 45%);
+	width: 100%;
+	margin-top: 1rem;
+	height: 1.7rem;
+	border-radius: .2rem;
+	border:none;
+	font-size: .7rem;
+	color: hsl(183, 100%, 15%);
+	text-transform: uppercase;
+
+}
+
+.tipBtns
+{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-template-rows: repeat(3,1fr);
+	gap:.5rem;
+}
+
+.tip
+{
+	box-sizing: border-box;
+	text-align: center;
+	margin-bottom: .5rem;
+	width:100%;
+	color:white;
+	font-size: 1rem;
+	height: 1.8rem;
+	border-radius: .2rem;
+	border:none;
+	background-color: hsl(183, 100%, 15%);
+
+
+
+}
+
+.numberOfPeople
+{
+	display:grid;
+
+}
+
+#tipCustom
+{
+	background-color:hsl(189, 41%, 97%);
+	color:hsl(183, 100%, 15%);
+
+
+}
+
+
+.btnClicked{
+background-color:hsl(172, 67%, 45%);
+color:hsl(183, 100%, 15%);
+}
+
+.btnUnClicked{
+background-color:hsl(183, 100%, 15%);
+
+
+}
+
+
+button
+{
+	cursor:pointer;
+}
+
+
+
+
+/********************************/
+
+@media(min-width: 600px)
+{
+
+#root
+{
+	display: grid;
+	place-items:center;
+}
+
+main
+{
+	border-radius: 1rem;
+	display: flex;
+	width: 80%;
+	padding:2%; 
+	justify-content: space-between;
+}
+
+.tipBtns
+{
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(2,1fr);
+	gap:1rem;
+}
+
+.result , .calc
+{
+	width: 48%;
+	align-items: center;
+	display: grid;
+}
+
+.inputArea
+{
+	width: 100%;
+}
+
+#total,#tipAmount
+{
+	font-size: 2rem;
+}
+
+#resetBtn
+{
+	height: 2.5rem;
+	font-size: 1.2rem;
+}
+
+.numberOfPeople
+{
+	display: flex;
+	align-items:center; 
+	justify-content:space-between;
+}
+
+}
