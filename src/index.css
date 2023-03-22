@@ -14,6 +14,9 @@ html
 	font-size:24px;
 	color: hsl(184, 14%, 56%);
 	background-color:  hsl(185, 41%, 84%);
+	display:grid;
+	place-items:center;
+	height:100vh;
 }
 
 h1
